@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://YOURDOMAIN.COM/sitemap.xml
+Sitemap: https://drcaiomeira.com/sitemap.xml
+
