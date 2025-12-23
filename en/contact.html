@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact | Dr. Caio Meira • São Paulo</title>
+  <meta name="description" content="Contact and booking for in-person consultations in São Paulo (Vila Olímpia) or online consultations. WhatsApp and contact form." />
+  <link rel="stylesheet" href="../styles.css" />
+</head>
+<body>
+
+<header class="nav">
+  <div class="container nav-inner">
+    <div class="brand">
+      <b>Dr. Caio Meira</b>
+      <span>CRM-SP 133043 | RQE 78723</span>
+    </div>
+    <nav class="menu">
+      <span class="lang"><a href="../contact.html">PT</a> • EN</span>
+      <a href="index.html">Home</a>
+      <a href="rhinoplasty.html">Rhinoplasty</a>
+      <a href="revision.html">Revision</a>
+      <a href="online-consult.html">Online consult</a>
+      <a class="active" href="contact.html">Contact</a>
+      <a class="cta" href="https://wa.me/5511995182022" target="_blank" rel="noopener">Book on WhatsApp</a>
+    </nav>
+  </div>
+</header>
+
+<main class="section">
+  <div class="container">
+    <div class="kicker">Contact</div>
+    <h1>Appointments and information</h1>
+    <p class="lead">WhatsApp is the fastest channel for booking. Online consultations are available.</p>
+
+    <div class="two-col" style="margin-top:18px">
+      <div class="card">
+        <h3>WhatsApp</h3>
+        <p><a class="cta" href="https://wa.me/5511995182022" target="_blank" rel="noopener">Message on WhatsApp <small>+55 11 99518-2022</small></a></p>
+        <div class="hr"></div>
+        <h3>Address</h3>
+        <p style="color:var(--muted); font-size:14px">
+          Av. Gomes de Carvalho, 127<br/>
+          Vila Olímpia — São Paulo — SP
+        </p>
+        <div class="hr"></div>
+        <h3>Instagram</h3>
+        <p><a href="https://instagram.com/drcaiomeira_rinoplastia" target="_blank" rel="noopener">@drcaiomeira_rinoplastia</a></p>
+      </div>
+
+      <div class="card">
+        <h3>Form</h3>
+        <form class="form" name="contact" method="post" data-netlify="true">
+          <input type="hidden" name="form-name" value="contact">
+          <input name="name" placeholder="Your name" required />
+          <input name="whatsapp" placeholder="WhatsApp (with country code)" required />
+          <input name="email" placeholder="Email" type="email" />
+          <textarea name="message" placeholder="Briefly describe your goal (male, revision, augmentation, etc.)"></textarea>
+          <button type="submit">Send</button>
+          <p class="note">By submitting, you agree to be contacted for scheduling purposes.</p>
+        </form>
+      </div>
+    </div>
+  </div>
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <div class="hr"></div>
+    <div class="badge">Dr. Caio Meira • CRM-SP 133043 | RQE 78723</div>
+    <p style="margin-top:10px">© <span id="y"></span> Dr. Caio Meira.</p>
+  </div>
+</footer>
+
+<script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+</body>
+</html>
